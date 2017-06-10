@@ -15,7 +15,7 @@ bower install ui-router-redirect
 In your page, add:
 
 ~~~html
-<script src="bower_components/ui-router-redirect/ui-router-redirect.js"></script>`
+<script src="bower_components/ui-router-redirect/src/ui-router-redirect.js"></script>
 ~~~
 
 ### Usage
