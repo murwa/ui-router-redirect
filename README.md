@@ -6,7 +6,7 @@ An angularjs module to easily handle redirects between states
 
 ### Installation
 
-Install using bower:
+Bower:
 
 ~~~javascript
 bower install ui-router-redirect
@@ -57,6 +57,18 @@ Add `redirectTo` key on a state definition. The value could be:
         name: 'string-redirect',
         redirectTo: function(){
             return 'main' // Redirects to main state 
+        } 
+    }
+    ~~~
+
+    ~~~javascript
+    // Promise example
+    var state = {
+        name: 'string-redirect',
+        redirectTo: ['$timeout', function($timeout){
+            return $timeout(function(){
+                return 'main' // Redirects to main state 
+            });
         } 
     }
     ~~~
