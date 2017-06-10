@@ -1,7 +1,7 @@
 {
     "name": "ui-router-redirect",
     "description": "Ui Router simple redirect module",
-    "version": "1.0.0",
+    "main": "src/ui-router-redirect.js",
     "authors": [
         {
             "name": "Peter Murwa",
@@ -10,7 +10,7 @@
     ],
     "homepage": "https://github.com/angular/angular-seed",
     "license": "MIT",
-    "private": true,
+    "private": false,
     "dependencies": {
         "angular": ">= 1.0.8",
         "angular-mocks": ">=1.0.8",
