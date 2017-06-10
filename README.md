@@ -2,4 +2,4 @@
 
 ## UI-Router Redirect
 
-This is an angularjs module to easily handle redirects between states
+An angularjs module to easily handle redirects between states

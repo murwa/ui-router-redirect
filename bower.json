@@ -2,6 +2,12 @@
     "name": "ui-router-redirect",
     "description": "Ui Router simple redirect module",
     "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Peter Murwa",
+            "email": "wanjala.pet@gmail.com"
+        }
+    ],
     "homepage": "https://github.com/angular/angular-seed",
     "license": "MIT",
     "private": true,
