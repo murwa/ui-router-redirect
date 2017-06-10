@@ -1,0 +1,13 @@
+{
+    "name": "ui-router-redirect",
+    "description": "Ui Router simple redirect module",
+    "version": "1.0.0",
+    "homepage": "https://github.com/angular/angular-seed",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "angular": ">= 1.0.8",
+        "angular-mocks": ">=1.0.8",
+        "angular-ui-router": "^0.3.0"
+    }
+}
