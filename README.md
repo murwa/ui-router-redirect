@@ -1,3 +1,3 @@
-## Read me
+## ui-router-redirect
 
-- asdfasdfasdf
+This is an angularjs module to easily handle redirects between states
