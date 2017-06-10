@@ -2,14 +2,14 @@
 module.exports = function (config) {
     config.set({
 
-        basePath: './src',
+        basePath: '.',
 
         files: [
             'bower_components/angular/angular.js',
             'bower_components/angular-mocks/angular-mocks.js',
             'bower_components/angular-ui-router/release/angular-ui-router.js',
             'tests/**/*.js',
-            'ui-router-redirect.js'
+            'src/**/*.js'
         ],
 
         autoWatch: true,
