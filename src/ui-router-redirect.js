@@ -40,7 +40,7 @@ angular.module('ui-router-redirect', [
                 if (angular.isString(value)) {
                     return $state.transitionTo(value, toParams);
                 } else if (angular.isObject(value)) {
-                    return $state.transitionTo(value.state, value.params || toParams);
+                    return $state.transitionTo(value.state, angular.extend({}, toParams, value.params || {}));
                 }
                 throw 'Invalid redirect specification';
             }
